@@ -10,6 +10,13 @@ body {
   font-size: 18px;
   background-image: url("../images/map-bg.jpg");
   background-size: cover;
+  /* See below for preventing the background image size from changing while zooming in & out */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: hidden;
 }
 
 nav {

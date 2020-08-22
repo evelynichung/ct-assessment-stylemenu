@@ -71,13 +71,13 @@ dt {
     - Make a comma appear after the name of each menu item
 */
 
-.details::after {
+dt::after {
   content: ",";
 }
 
-.details:last-child::after {
+/* dd:last-child::after {
   content: "";
-}
+} */
 
 dd {
   display: inline;
